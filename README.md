@@ -1,4 +1,4 @@
-<h1>Attention: work in progress! <br><small>It's done when it's done. <small>(release: soon)</small></small></h1>
+<h1>This is the YaWk CodersExchange Website Repo</h1>
 
 Official Website: <b>https://yawk.io</b><br>
 Documentation: <b>https://docs.yawk.io</b>
