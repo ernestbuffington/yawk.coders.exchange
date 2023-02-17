@@ -1,4 +1,4 @@
-<h1>This is the YaWk CodersExchange Website Repo</h1>
+<h1>This is the YaWK CodersExchange Website Repo</h1>
 
 Official Website: <b>https://yawk.io</b><br>
 Documentation: <b>https://docs.yawk.io</b>
