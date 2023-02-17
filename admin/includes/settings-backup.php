@@ -751,7 +751,7 @@ echo"<ol class=\"breadcrumb\">
                     class="btn btn-success pull-right"
                     id="savebutton"
                     data-processingText="<?php echo $lang['BACKUP_PROCESSING']; ?>"
-                    data-processingTitle="<?php echo $lang['BACKUP_PROCESSING_TITLE']; ?>"
+                    data-processingTitle="<?php echo $lang['BACKUP_PROCESSING_TITLE'] ?? ''; ?>"
                     data-restoreText="<?php echo $lang['BACKUP_RESTORE_TEXT']; ?>"
                     data-restoreTitle="<?php echo $lang['BACKUP_RESTORE_TITLE']; ?>">
                 <i class="fa fa-check" id="savebuttonIcon"></i> &nbsp;
