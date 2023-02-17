@@ -423,7 +423,7 @@ else {
                     <!-- link to plg settings -->
                     <h4><i class="fa fa-wrench"></i><small><i class="fa fa-envelope-o"></i></small> &nbsp;
                     <a href="index.php?plugin=messages"><?php echo $lang['USERPAGE_MESSAGE_PLUGIN_SETTINGS']; ?></a>
-                    <small><?php echo $lang['USERPAGE_MESSAGE_PLUGIN_SETTINGS_SUBTEXT']; ?></small></h4><br><br>
+                    <small><?php echo $lang['USERPAGE_MESSAGE_PLUGIN_SETTINGS_SUBTEXT'] ?? ''; ?></small></h4><br><br>
                 </div>
                 <!-- settings -->
                 <div role="tabpanel" class="tab-pane" id="settingsTab">
@@ -497,7 +497,7 @@ else {
                 <fieldset>
                     <legend><i class="fa fa-bars"></i> &nbsp;<?php echo "$lang[USERPAGE_LOGOUTMENU] <small>$lang[USERPAGE_LOGOUTMENU_SUBTEXT]</small>"; ?></legend>
                     <input type="hidden" value='0' name="logoutmenu">
-                    <input type="checkbox" id="logoutmenu" name="logoutmenu" class="form-control" value="1" title="<?php print $lang['LOGOUTMENU_ENABLE']; ?>" <?php echo $logoutmenuHtml; ?>>
+                    <input type="checkbox" id="logoutmenu" name="logoutmenu" class="form-control" value="1" title="<?php print $lang['LOGOUTMENU_ENABLE']; echo $logoutmenuHtml; ?>>
                     <label for="logoutmenu"><?php print $lang['USERPAGE_LOGOUTMENU_ENABLE']; ?></label>
                    <br><br><br>
                 </fieldset>
