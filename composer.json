@@ -1,0 +1,34 @@
+{
+  "name":  "yawk/yawk.io",
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/YAWK/yawk.io"
+    }
+  ],
+  "description": "Yet another Web Kit - CMS and Web Management Tool",
+  "type": "project",
+  "keywords": ["CMS", "website", "homepage", "content management", "wordpress alternative", "git"],
+  "homepage": "https://yawk.io",
+  "time": "2022-05-05",
+  "prefer-stable": false,
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Daniel Retzl",
+      "email": "danielretzl@gmail.com",
+      "homepage": "https://www.goodconnect.net/",
+      "role": "Project Founder and Main Developer"
+    }
+  ],
+  "support": {
+    "email": "danielretzl@gmail.com",
+    "issues": "https://github.com/YAWK/yawk.io/issues",
+    "milestones": "https://github.com/YAWK/yawk.io/milestones",
+    "wiki": "https://github.com/YaWK/yawk.io/wiki",
+    "source": "https://github.com/YaWK/yawk.io",
+    "docs": "https://docs.yawk.io/"
+  },
+  "require": {
+  }
+}

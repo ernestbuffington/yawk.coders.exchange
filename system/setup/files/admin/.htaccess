@@ -1,0 +1,21 @@
+#Options +FollowSymlinks
+Order allow,deny
+Allow from all
+
+# custom error page
+ErrorDocument 404 ../content/errors/404.html
+
+RewriteEngine on
+RewriteCond %{REQUEST_URI} /(.*).html
+RewriteRule ^(.*).html$ \index.php?include=$1
+# Rewrite .html - no extension needed e.g. you can use http://www.yoursite/gallery instead of /gallery.html
+RewriteRule ^([^\.]+)$ \index.php?page=$1 [NC,L]
+
+# off for tinymce
+#RewriteRule ^(.*).htm$ \index.php?include=$1
+
+# override max post size
+php_value post_max_size 64M
+
+# override max upload file size
+php_value upload_max_filesize 64M
